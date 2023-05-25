@@ -1,4 +1,5 @@
-import getRandomNumber from '../utils.js';
+// eslint-disable-next-line import/named
+import { getRandomNumber } from '../utils.js';
 import runGameLogic, { roundsNumber } from '../gameLogic.js';
 
 const progressionLength = 10;

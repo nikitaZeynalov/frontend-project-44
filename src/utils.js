@@ -1,7 +1,2 @@
-const getRandomNumber = (minRange, maxRange) => {
-  const randomNumber = Math.floor(Math.random() * (maxRange - minRange) + minRange);
-  return randomNumber;
-};
-
-export const isEvenNumber = (number) => number % 2 === 0;
-export default getRandomNumber;
+// eslint-disable-next-line max-len, import/prefer-default-export
+export const getRandomNumber = (minRange, maxRange) => Math.floor(Math.random() * (maxRange - minRange) + minRange);
