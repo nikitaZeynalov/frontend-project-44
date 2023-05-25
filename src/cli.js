@@ -1,4 +1,5 @@
-import readlineSync from 'readline-sync';
+/* eslint-disable import/no-unresolved */
+import readlineSync from '../node_modules/lib/readline-sync';
 
 const sayGreetings = () => {
   console.log('Welcome to the Brain Games!');
