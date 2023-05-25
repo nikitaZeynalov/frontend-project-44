@@ -24,9 +24,3 @@ publish:
 
 lint:
 	npx eslint .
-
-	
-
-
-
-
