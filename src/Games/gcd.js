@@ -15,15 +15,15 @@ const generateRound = () => {
   const secondNumber = getRandomNumber(1, 100);
   const correctAnswer = String(getGcd(firstNumber, secondNumber));
   const question = `${firstNumber} ${secondNumber}`;
-  return [question, correctAnswer];
+  return [question, String(correctAnswer)];
 };
 
-const runGcdGame = () => {
+function runGcdGame() {
   const rounds = [];
   for (let i = 0; i < roundsNumber; i += 1) {
     rounds[i] = generateRound();
   }
   return runGameLogic(rounds, description);
-};
+}
 
 export default runGcdGame;
