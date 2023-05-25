@@ -1,4 +1,4 @@
-import { getRandomNumber } from '../utils.js';
+import getRandomNumber from '../utils.js';
 import runGameLogic, { roundsNumber } from '../gameLogic.js';
 
 const progressionLength = 10;
