@@ -7,8 +7,6 @@ publish:
 lint:
 		npx eslint .
 
-fix:
-		npx eslint --fix .
 
 brain-games:
 		node bin/brain-games.js
