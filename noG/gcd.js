@@ -1,5 +1,5 @@
-import { getRandomNumber } from '../utils.js';
-import runGameLogic, { roundsNumber } from '../gameLogic.js';
+import { getRandomNumber } from '../src/utils.js';
+import runGameLogic, { roundsNumber } from '../src/gameLogic.js';
 
 const description = 'Find the greatest common divisor of given numbers.';
 

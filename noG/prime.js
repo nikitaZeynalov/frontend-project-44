@@ -1,5 +1,5 @@
-import { getRandomNumber } from '../utils.js';
-import runGameLogic, { roundsNumber } from '../gameLogic.js';
+import { getRandomNumber } from '../src/utils.js';
+import runGameLogic, { roundsNumber } from '../src/gameLogic.js';
 
 const description = 'Answer "yes" if given number is prime. Otherwise answer "no".';
 
