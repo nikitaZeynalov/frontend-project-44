@@ -1,5 +1,5 @@
-import { getRandomNumber } from '../src/utils.js';
-import runGameLogic, { roundsNumber } from '../src/gameLogic.js';
+import { getRandomNumber } from '../utils.js';
+import runGameLogic, { roundsNumber } from '../gameLogic.js';
 
 const runEvenGame = () => {
   const rounds = [];
