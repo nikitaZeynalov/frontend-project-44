@@ -1,7 +1,7 @@
 import { getRandomNumber } from '../utils.js';
 import runGameLogic, { roundsNumber } from '../gameLogic.js';
 
-const description = 'Find the greatest common divisor of given numders.';
+const description = 'Find the greatest common divisor of given numbers.';
 
 const getGcd = (num1, num2) => {
   if (num1 === 0) {
